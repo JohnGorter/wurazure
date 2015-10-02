@@ -1,6 +1,7 @@
 var http = require('http');
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 1337;
 
 app.use(express.static('app'));
 
@@ -15,6 +16,6 @@ app.get('/john', function(req, res){
   res.end('Hello World\n');
 });
 
-app.listen(1337);
+app.listen(port);
 
 console.log('Server is running at http://127.0.0.1:1337/');

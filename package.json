@@ -1,16 +1,18 @@
 {
-  "name": "HelloNodeJs",
+  "name": "hellonodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "blaaa",
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.13.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "John Gorter",
   "license": "ISC"
 }
